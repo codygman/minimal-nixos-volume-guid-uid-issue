@@ -5,10 +5,10 @@ This minimal repro exists because I'm not sure why it's not working, if it's nix
 specific, or just some silly user error.
 
 - [readme](#orgebaabf2)
-        - [create folder on host](#org02f489a)
-        - [show foobar and it&rsquo;s perms](#orgd8b5b8b)
-        - [write file into `pre-created-folder-should-keep-host-user-uid-gid` and it **should** but does not retain host uid/gid permissions](#orgf76064a)
-        - [ls file in `pre-created-folder-should-keep-host-user-uid-gid` and show incorrect root perms :(](#org5d80a68)
+- [create folder on host](#org02f489a)
+- [show foobar and it&rsquo;s perms](#orgd8b5b8b)
+- [write file into `pre-created-folder-should-keep-host-user-uid-gid` and it **should** but does not retain host uid/gid permissions](#orgf76064a)
+- [ls file in `pre-created-folder-should-keep-host-user-uid-gid` and show incorrect root perms :(](#org5d80a68)
 
 
 <a id="orgebaabf2"></a>
